@@ -1,0 +1,15 @@
+.navbar
+{
+margin-bottom: 2px;
+border-radius:2;
+background-color:white;
+font-style:Times;
+
+}
+.container
+{
+    background-image: url("../images/3.jpg");
+    background-position-y: 200px ;
+    background-position-x: -150px;
+    color:silver;
+}

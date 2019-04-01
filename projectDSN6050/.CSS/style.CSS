@@ -1,0 +1,54 @@
+.jumbotron
+{
+    background-color:brown!important;
+    color: white;
+  font-size:5px;
+    /*text-shadow: 3px 3px 3px rgb(241, 73, 73);*/
+  
+    width:90%;
+     float: right;
+     border: solid 4px ;
+     align-items: center;
+     margin-right : 5% ;
+     margin-left: 7%;
+    }
+.text-center h1 {
+    font-size: 30px;
+    font-weight: bold;
+    animation: animatedhead 3s infinite;
+    
+}
+.containercarouse
+{
+width: 75%; 
+}
+
+@keyframes animatedhead{
+    from{
+        color:white ;
+        visibility: hidden;
+    }to{
+        visibility: visible;
+        color : rgb(82, 211, 82) ;
+    }
+}
+
+
+@media screen and (max-width:800px) 
+{
+    .containercarouse
+    {
+        width:100%;
+        background-color: black;
+    }
+    containercarouse h2
+    {
+    color: white;
+    }
+}
+.col-sm-12
+{
+    width:600px;
+    float:left;
+   
+}
